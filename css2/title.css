@@ -1,0 +1,74 @@
+.title{
+    padding: 32px;
+    background-color: var(--gris-claro)
+}
+
+.title__div{
+    display: flex;
+    padding-left: 100px;
+    padding-right: 100px;
+
+}
+
+.title__bio{
+    font-size: 52px;
+    font-weight: 700;
+    color: var(--preto-100);
+}
+
+.title__subsection{
+    color: var(--preto-100);
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.title__network{
+    display: flex;
+    gap: 32px;
+}
+
+.title__profile{
+    width: 368px;
+    height: 368px;
+    border-radius: 368px;
+    background: url(<assets/perfilsabrina2.png>), lightgray 50% / cover no-repeat;
+}
+
+/*Tablet*/
+@media (max-width: 768px) {
+    .title__bio{
+        font-size: 22px;
+    }
+
+    .title__subsection{
+        font-size: 16px;
+    }
+
+    .title__profile{
+        height: 146px;
+        width: 146px;
+    }
+    
+}
+    
+    /*Mobile*/
+@media (max-width: 425px) {
+    .title__subsection{
+        font-size: 14px;
+    }
+
+    .title__profile{
+        height: 98px;
+        width: 98px;
+    }
+
+    .title__div{
+        flex-direction: column;
+    }
+
+    .title__network__item{
+        font-size: 14px;
+        font-weight: 600;
+    }
+    
+}
