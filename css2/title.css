@@ -31,7 +31,7 @@
     width: 368px;
     height: 368px;
     border-radius: 368px;
-    background: url(<assets/perfilsabrina2.png>), lightgray 50% / cover no-repeat;
+    background: url(./../assets/perfilsabrina2.png), lightgray 50% / cover no-repeat;
 }
 
 /*Tablet*/
