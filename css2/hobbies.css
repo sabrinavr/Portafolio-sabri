@@ -1,4 +1,4 @@
-.hobbies{
+section.hobbies{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -10,6 +10,7 @@
     font-size: 32px;
     font-weight: 700;
     color: var(--preto-100);
+    padding: 32px;
 }
 
 .hobbies__line{
@@ -26,6 +27,10 @@
     flex-direction: column;
     justify-content: flex-end; 
     
+}
+
+.hobbies__box--pasatiempo{
+    padding: 15px;
 }
 
 

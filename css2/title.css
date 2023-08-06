@@ -1,4 +1,4 @@
-.title{
+section.title{
     padding: 32px;
     background-color: var(--gris-claro)
 }
@@ -20,6 +20,8 @@
     color: var(--preto-100);
     font-size: 22px;
     font-weight: 400;
+    margin-top: 2em;
+    margin-bottom: 1em;
 }
 
 .title__network{
@@ -36,6 +38,12 @@
 
 /*Tablet*/
 @media (max-width: 768px) {
+    .title{
+        padding: 0;
+    }
+    .title__div{
+        padding: 0px;
+    }
     .title__bio{
         font-size: 22px;
     }
@@ -47,6 +55,7 @@
     .title__profile{
         height: 146px;
         width: 146px;
+        margin-left: 1em;
     }
     
 }
@@ -63,12 +72,18 @@
     }
 
     .title__div{
-        flex-direction: column;
+        flex-direction: column-reverse;
+        padding: 0;
+
     }
 
     .title__network__item{
         font-size: 14px;
         font-weight: 600;
+        
     }
     
+    .title__network{
+        gap: 5px;
+    }
 }

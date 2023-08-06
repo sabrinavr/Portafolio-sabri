@@ -1,4 +1,4 @@
-.about {
+section.about {
     padding: 32px;
     background-color: var(--azul-10);
 }
@@ -41,12 +41,21 @@
     .about__paragraph{
         font-size: 14px;
         font-weight: 400;
+        padding: 1em 0em 1em 0em;
+       
+    }
+
+    .about__container{
+        padding-right: 0;
+        width: 95%;
+        padding-left: 0;
     }
     
 }
     
     /*Mobile*/
 @media (max-width: 425px) {
+    
     
 
 }

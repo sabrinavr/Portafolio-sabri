@@ -1,8 +1,8 @@
-.menu{
+section.menu{
     display: flex;
     justify-content: space-between;
-    padding-left: 7em;
-    padding-right: 7em;
+    padding-left: 32px;
+    padding-right: 32px;
     padding-top: 2em;
     padding-bottom: 2em;
     background-color: var(--gris-claro)
@@ -38,6 +38,11 @@
 @media (max-width: 768px) {
     .menu__list__item{
         display: none;
+    }
+
+    .menu{
+        padding-left: 16px;
+        padding-right: 16px;
     }
     
 }

@@ -1,4 +1,4 @@
-.formcontato{
+section.formcontato{
     background-color: var(--azul-10);
     padding: 64px;
 }
@@ -15,6 +15,7 @@
     font-weight: 700;
     color: var(--preto-100);
     margin-top: 0px;
+    margin-bottom: 15px;
 }
 
 .formcontato__subtext{
@@ -59,4 +60,38 @@
 
 .formcontato__botao:hover{
     cursor: pointer;
+}
+
+/*Tablet*/
+@media (max-width: 768px) {
+    .formcontato__img{
+        display: none;
+    }
+
+    .formcontato{
+        padding: 32px 0px 32px 0px;
+    }
+
+    .formcontato__contacto{
+        padding: 0px 2% 0px 2%;
+    }
+
+    .formcontato__title{
+        font-size: 22px;
+    }
+
+    .formcontato__botao{
+        padding-top: 12px;
+
+    }
+
+
+    
+}
+    
+    /*Mobile*/
+@media (max-width: 425px) {
+    
+    
+
 }
