@@ -1,0 +1,43 @@
+:root{
+    --cor-de-fundo: #F5F5F5;
+    --cor-de-link: #000;
+    --preto-100: #464646; 
+    --azul-10: #EAF2FD;
+    --azul-100: #2A7AE4;
+    --preto-branco: #FFFFFF;
+    --preto-30: #C8C8C8;
+    --gris-claro: #ededed;
+    --preto-50: #a2a2a2;
+}
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    font-family: Raleway;
+}
+
+
+ul, li{
+    list-style: none;
+}
+
+a{
+    color: var(--cor-de-link);
+    text-decoration: none;
+}
+
+h1,h2,h4,h5,p,input,button,textarea{
+    border: none;
+    outline: none;
+}
+
+h4{
+    margin-bottom: 0px;
+}
